@@ -31,13 +31,5 @@ def track_get_page(fn: Callable) -> Callable:
 
 @track_get_page
 def get_page(url: str) -> str:
-    """
-    Args:
-
-        url: url to get
-    Returns:
-
-            the HTML content of the URL
-    """
     response = requests.get(url)
     return response.text
