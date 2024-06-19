@@ -9,7 +9,6 @@ from typing import Any, Callable, Union
 
 class Cache:
     '''Represents a cache storage using Redis.
-    
     This class allows for storing and retrieving data in a Redis database
     using randomly generated keys.
     '''
